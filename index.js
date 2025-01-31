@@ -75,8 +75,8 @@ app.all('/player/growid/checktoken', (req, res) => {
         res.render(__dirname + '/public/html/dashboard.ejs');
     }
 });
-app.get('/', function (req, res) {
-   res.send('This is loginurl dauws web');
+app.all('/', function (req, res) {
+   res.render(__dirname + '/public/html/html.ejs');
 });
 
 app.listen(5000, function () {
