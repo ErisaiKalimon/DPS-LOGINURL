@@ -76,7 +76,7 @@ app.all('/player/growid/checktoken', (req, res) => {
     }
 });
 app.get('/', function (req, res) {
-   res.send('Hello Memek');
+   res.send('This is loginurl dauws web');
 });
 
 app.listen(5000, function () {
