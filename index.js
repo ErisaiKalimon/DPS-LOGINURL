@@ -78,9 +78,6 @@ app.all('/player/growid/checktoken', (req, res) => {
 app.all('/', function (req, res) {
    res.render(__dirname + '/public/html/html.ejs');
 });
-app.all('/shop', function (req, res) {
-   res.render(__dirname + '/public/html/shop.ejs');
-});
 
 app.listen(5000, function () {
     console.log('Listening on port 5000');
