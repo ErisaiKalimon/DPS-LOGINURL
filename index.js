@@ -81,8 +81,6 @@ app.all('/', function (req, res) {
 app.all('/', function (req, res) {
    res.render(__dirname + '/public/html/html.ejs');
 });
-app.use("/assets", express.static(path.join(__dirname, 'public/assets'))
-);
 
 app.listen(5000, function () {
     console.log('Listening on port 5000');
